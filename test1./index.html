@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Teka</title>
+  <link rel="stylesheet" href="./bootstrap.min(2).css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <div class="card_ctud"><i class="bi bi-mortarboard"></i></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Presnts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Schedule</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#">
+                Homeworks
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="card_rite" role="search">
+            <a href="#"><i class="bi bi-bell-fill"></i></a>
+            <a href="#"><i class="bi bi-person-fill"></i></a>
+            <a href="#"><i class="bi bi-box-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- верх  ------ -->
+
+
+  <p class="APRIL_tusday">31 APRIL,TUSDAY</p>
+
+  <!-- низ ------ -->
+
+
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
+        role="tab" aria-controls="home-tab-pane" aria-selected="true">Leson1</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button"
+        role="tab" aria-controls="profile-tab-pane" aria-selected="false">leson2</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button"
+        role="tab" aria-controls="contact-tab-pane" aria-selected="false">leson3</button>
+    </li>
+
+  </ul>
+
+
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Group</th>
+            <th scope="col">Subject</th>
+            <th scope="col">lesson topic</th>
+            <th scope="col">Hometask</th>
+          <tr>
+        </thead>
+        <tbody>
+          <div class="container_text_serch">
+
+            <td>ABS-1234</td>
+            <td>HTML & CSS</td>
+            <td>
+
+              <div class="input-group">
+                <div>
+                  <div class="text_serch1"><i class="tab_text"></i><input type="text">
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <button class="search-btn">Search</button>
+              </div>
+
+            </td>
+            </tr>
+        </tbody>
+
+
+
+
+
+
+
+
+
+        </thead>
+      </table>
+
+      <hr>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col"> </th>
+            <th scope="col">NAME</th>
+            <th scope="col">TEST</th>
+            <th scope="col">GPA</th>
+            <th scope="col">is present</th>
+            <th scope="col">CLASVORK</th>
+            <th scope="col">COMENT</th>
+          </tr>
+
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>3</td>
+            <td>
+              <!-- кноп1 -->
+              <div class="status-toggle">
+                <input type="radio" id="s1_g" name="st1" value="green" checked>
+                <label for="s1_g" class="green-status"></label>
+                <input type="radio" id="s1_y" name="st1" value="yellow">
+                <label for="s1_y" class="yellow-status"></label>
+                <input type="radio" id="s1_r" name="st1" value="red">
+                <label for="s1_r" class="red-status"></label>
+              </div>
+
+            </td>
+
+            <td>
+              <details class="details_1">
+                <summary> </summary>
+                <p>rer</p>
+              </details>
+            </td>
+            <td>
+              <div class="input-group">
+                <div class="text_serch"><i class="tab_text"></i><input class="text" type="text">
+                </div>
+            </td>
+
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>12</td>
+            <td>
+              <!-- кноп2 -->
+              <div class="status-toggle">
+                <input type="radio" id="s2_g" name="st2" value="green">
+                <label for="s2_g" class="green-status"></label>
+                <input type="radio" id="s2_y" name="st2" value="yellow" checked>
+                <label for="s2_y" class="yellow-status"></label>
+                <input type="radio" id="s2_r" name="st2" value="red">
+                <label for="s2_r" class="red-status"></label>
+              </div>
+
+            </td>
+            <td>
+
+              <details class="details_1">
+                <summary> </summary>
+                <p>no</p>
+              </details>
+
+            </td>
+
+            <td>
+              <div class="input-group">
+                <div class="text_serch"><i class="tab_text"></i><input class="text" type="text">
+                </div>
+            </td>
+
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>John</td>
+            <td>Doe</td>
+            <td>1</td>
+            <td>
+              <!-- кноп3 -->
+              <div class="status-toggle">
+                <input type="radio" id="s3_g" name="st3" value="green">
+                <label for="s3_g" class="green-status"></label>
+                <input type="radio" id="s3_y" name="st3" value="yellow">
+                <label for="s3_y" class="yellow-status"></label>
+                <input type="radio" id="s3_r" name="st3" value="red" checked>
+                <label for="s3_r" class="red-status"></label>
+              </div>
+            </td>
+
+            <td>
+
+              <details class="details_1">
+                <summary> </summary>
+                <p>nope </p>
+              </details>
+
+            </td>
+            <td>
+              <div class="input-group">
+                <div class="text_serch"><i class="tab_text"></i><input class="text" type="text">
+                </div>
+            </td>
+
+          </tr>
+
+    </div>
+    </tbody>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Group</th>
+          <th scope="col">Subject</th>
+          <th scope="col">lesson topic</th>
+          <th scope="col">Hometask</th>
+        <tr>
+      </thead>
+      <tbody>
+        <div class="container_text_serch">
+
+          <td>ABS-1234</td>
+          <td>HTML & CSS</td>
+          <td>
+
+            <div class="input-group">
+              <div>
+                <div class="text_serch1"><i class="tab_text"></i><input type="text">
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <button class="search-btn">Search</button>
+            </div>
+
+          </td>
+          </tr>
+      </tbody>
+
+
+      </thead>
+    </table>
+
+    <hr>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"> </th>
+          <th scope="col">NAME</th>
+          <th scope="col">TEST</th>
+          <th scope="col">GPA</th>
+          <th scope="col">is present</th>
+          <th scope="col">CLASVORK</th>
+          <th scope="col">COMENT</th>
+        </tr>
+
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>3</td>
+          <td>
+
+
+
+            <!-- кноп1 -->
+            <div class="status-toggle">
+              <input type="radio" id="s4_g" name="st4" value="green">
+              <label for="s4_g" class="green-status"></label>
+              <input type="radio" id="s4_y" name="st4" value="yellow">
+              <label for="s4_y" class="yellow-status"></label>
+              <input type="radio" id="s4_r" name="st4" value="red">
+              <label for="s4_r" class="red-status"></label>
+            </div>
+
+
+
+          </td>
+
+          <td>
+            <details class="details_1">
+              <summary> </summary>
+              <p>rer</p>
+            </details>
+          </td>
+          <td>
+            <div class="input-group">
+              <div class="text_serch"><i class="tab_text"></i><input class="text" type="text">
+              </div>
+          </td>
+
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>12</td>
+          <td>
+
+
+            <!-- кноп2 -->
+            <div class="status-toggle">
+              <input type="radio" id="s5_g" name="st5" value="green">
+              <label for="s5_g" class="green-status"></label>
+              <input type="radio" id="s5_y" name="st5" value="yellow">
+              <label for="s5_y" class="yellow-status"></label>
+              <input type="radio" id="s5_r" name="st5" value="red">
+              <label for="s5_r" class="red-status"></label>
+            </div>
+
+          </td>
+          <td>
+
+            <details class="details_1">
+              <summary> </summary>
+              <p>no</p>
+            </details>
+
+          </td>
+
+          <td>
+            <div class="input-group">
+              <div class="text_serch"><i class="tab_text"></i><input class="text" type="text">
+              </div>
+          </td>
+
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>John</td>
+          <td>Doe</td>
+          <td>1</td>
+          <td>
+
+
+            <!-- кноп3 -->
+            <div class="status-toggle">
+              <input type="radio" id="s6_g" name="st6" value="green">
+              <label for="s6_g" class="green-status"></label>
+              <input type="radio" id="s6_y" name="st6" value="yellow">
+              <label for="s6_y" class="yellow-status"></label>
+              <input type="radio" id="s6_r" name="st6" value="red">
+              <label for="s6_r" class="red-status"></label>
+            </div>
+
+
+          </td>
+
+          <td>
+
+            <details class="details_1">
+              <summary> </summary>
+              <p>nope </p>
+            </details>
+
+          </td>
+          <td>
+            <div class="input-group">
+              <div class="text_serch"><i class="tab_text"></i><input class="text" type="text">
+              </div>
+          </td>
+
+        </tr>
+
+  </div>
+  </tbody>
+  </table>
+
+  </div>
+  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Group</th>
+          <th scope="col">Subject</th>
+          <th scope="col">lesson topic</th>
+          <th scope="col">Hometask</th>
+        <tr>
+      </thead>
+      <tbody>
+        <div class="container_text_serch">
+
+          <td>ABS-1234</td>
+          <td>HTML & CSS</td>
+          <td>
+
+            <div class="input-group">
+              <div>
+                <div class="text_serch1"><i class="tab_text"></i><input type="text">
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <button class="search-btn">Search</button>
+            </div>
+
+          </td>
+          </tr>
+      </tbody>
+
+
+
+
+
+
+
+
+
+      </thead>
+    </table>
+
+    <hr>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"> </th>
+          <th scope="col">NAME</th>
+          <th scope="col">TEST</th>
+          <th scope="col">GPA</th>
+          <th scope="col">is present</th>
+          <th scope="col">CLASVORK</th>
+          <th scope="col">COMENT</th>
+        </tr>
+
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>3</td>
+          <td>
+
+
+            <!-- кноп1 -->
+            <div class="status-toggle">
+              <input type="radio" id="s7_g" name="st7" value="green">
+              <label for="s7_g" class="green-status"></label>
+              <input type="radio" id="s7_y" name="st7" value="yellow">
+              <label for="s7_y" class="yellow-status"></label>
+              <input type="radio" id="s7_r" name="st7" value="red">
+              <label for="s7_r" class="red-status"></label>
+            </div>
+
+
+
+
+
+          </td>
+
+          <td>
+            <details class="details_1">
+              <summary> </summary>
+              <p>rer</p>
+            </details>
+          </td>
+          <td>
+            <div class="input-group">
+              <div class="text_serch"><i class="tab_text"></i><input class="text" type="text">
+              </div>
+          </td>
+
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>12</td>
+          <td>
+
+
+            <!-- кноп2 -->
+            <div class="status-toggle">
+              <input type="radio" id="s8_g" name="st8" value="green">
+              <label for="s8_g" class="green-status"></label>
+              <input type="radio" id="s8_y" name="st8" value="yellow">
+              <label for="s8_y" class="yellow-status"></label>
+              <input type="radio" id="s8_r" name="st8" value="red">
+              <label for="s8_r" class="red-status"></label>
+            </div>
+
+
+
+          </td>
+          <td>
+
+            <details class="details_1">
+              <summary> </summary>
+              <p>no</p>
+            </details>
+
+          </td>
+
+          <td>
+            <div class="input-group">
+              <div class="text_serch"><i class="tab_text"></i><input class="text" type="text">
+              </div>
+          </td>
+
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>John</td>
+          <td>Doe</td>
+          <td>1</td>
+          <td>
+
+
+
+            <!-- кноп3 -->
+
+            <div class="status-toggle">
+              <input type="radio" id="s9_g" name="st9" value="green">
+              <label for="s9_g" class="green-status"></label>
+              <input type="radio" id="s9_y" name="st9" value="yellow">
+              <label for="s9_y" class="yellow-status"></label>
+              <input type="radio" id="s9_r" name="st9" value="red">
+              <label for="s9_r" class="red-status"></label>
+            </div>
+
+
+
+          </td>
+
+          <td>
+
+            <details class="details_1">
+              <summary> </summary>
+              <p>nope </p>
+            </details>
+
+          </td>
+          <td>
+            <div class="input-group">
+              <div class="text_serch"><i class="tab_text"></i><input class="text" type="text">
+              </div>
+          </td>
+
+        </tr>
+
+  </div>
+  </tbody>
+  </table>
+  </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

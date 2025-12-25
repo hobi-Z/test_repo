@@ -1,0 +1,183 @@
+/* a */
+.APRIL_tusday {
+    text-align: center;
+    font-size: xx-large;
+    background-color: #00ffdd25;
+    border-radius: 6px;
+    border: 2px solid aqua;
+}
+
+/* c */
+.card_ctud {
+    font-size: xx-large;
+}
+
+.card_rite {
+    font-size: x-large;
+}
+
+.container_text_serch {
+    margin-top: 50px;
+}
+
+
+/* d */
+.details_1 {
+    border: 2px solid white;
+    border-radius: 6px;
+    border-color: aqua;
+    width: 12pc;
+}
+
+/* i */
+
+.text_serch1{
+    padding: 12px 10px;
+}
+
+
+
+.input-group {
+
+    display: flex;
+    padding: 0 15px;
+    border-radius: 1px;
+    flex-grow: 1;
+
+}
+
+/* n */
+.nav-link {
+    color: wheat;
+}
+
+.nav-item {
+    color: aliceblue;
+}
+
+/* s */
+
+.search-section {
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.search-btn {
+    background-color: #0400ff;
+    color: #07fff3;
+    border: 1px solid;
+    padding: 12px 70px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 96%;
+    position: relative;
+    top: -35px;
+}
+
+
+/* t */
+
+
+
+
+.tab_text {
+    background-color: #28a745;
+
+}
+
+.text_serch1 {
+    display: flex;
+    border: 1px solid #07fff3;
+    border-radius: 5px;
+    padding: 12 30px;
+    width: 130%;
+    box-shadow: 3px #0400ff;
+    position: relative;
+    top: 16px;
+    right: 6pc;
+}
+
+
+
+td {
+    vertical-align: bottom;
+    vertical-align: middle;
+}
+
+.text_serch {
+    display: flex;
+    border: 1px solid #07fff3;
+    border-radius: 5px;
+    padding: 0 30px;
+    width: 30%;
+    box-shadow: 3px #0400ff;
+    position: relative;
+    right: 1pc;
+    
+}
+
+
+.text_serch1 input {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: #00eeff;
+}
+
+.text_serch input {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: #00eeff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* блок з кнопками нерухати !!!!! */
+
+/* new-pointer */
+
+
+.status-toggle {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+
+.status-toggle input[type="radio"] {
+  display: none; /* Ховаємо стандартні кнопки */
+}
+
+.status-toggle label {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* Кольори рамок */
+.green-status  { border-color: #28a745; }
+.yellow-status { border-color: #ffc107; }
+.red-status    { border-color: #dc3545; }
+
+/* Кольори при виборі (Checked) */
+input[value="green"]:checked + .green-status { background: #28a745; box-shadow: 0 0 8px rgba(40,167,69,0.5); }
+input[value="yellow"]:checked + .yellow-status { background: #ffc107; box-shadow: 0 0 8px rgba(255,193,7,0.5); }
+input[value="red"]:checked + .red-status { background: #dc3545; box-shadow: 0 0 8px rgba(220,53,69,0.5); }
